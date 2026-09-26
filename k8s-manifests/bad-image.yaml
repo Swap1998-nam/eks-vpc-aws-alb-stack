@@ -17,4 +17,4 @@ spec:
     spec:
       containers:
         - name: app
-          image: nginx:this-image-does-not-exist
+          image: nginx:1.31.6

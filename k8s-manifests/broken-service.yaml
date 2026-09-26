@@ -1,10 +1,10 @@
-apiVersion: v1
+Version: v1
 kind: Service
 metadata:
   name: broken-nginx
 spec:
   selector:
-    app: wrong-label
+    app: nginx:1.31.6
   ports:
     - port: 80
       targetPort: 80

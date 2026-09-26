@@ -21,7 +21,7 @@ spec:
 
           readinessProbe:
             httpGet:
-              path: /wrong-page
+              path: /waiic
               port: 80
 
             initialDelaySeconds: 5
